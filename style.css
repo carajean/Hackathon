@@ -16,3 +16,45 @@ body {
     height:100px;
     background-color:white;
 }
+@import url(https://fonts.googleapis.com/css?family=Alice);
+
+html {
+    background-image: url("AliceInWonderlandQofH.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    width: 40%;
+    margin: 0 auto 0 auto;
+    text-align: left;
+    padding-top: 10px;
+    padding-right:30%;
+    color: white;
+    font-family: "Alice", Arial, Helvetica, sans-serif;
+}
+
+#WelcomeContent {
+    width: 60%;
+    position: fixed;
+    left: 0;
+}
+
+h1{
+    font-size: 80px;
+}
+
+#buttonStart {
+    height: 50px;
+    width: 60px;
+    font-size: 20px;
+    border: white;
+    color: white;
+    background-color: darkred;
+    text-align: center;
+    padding-right: 20%;
+    margin: auto;
+    border-radius: 10%;
+    float: center;
+    font-family: "Alice", Arial, Helvetica, sans-serif;
+}
