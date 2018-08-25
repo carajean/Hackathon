@@ -12,7 +12,7 @@ body {
     border: 0;
     width: 100%;
     background-color: rgb(0, 0, 0, .8);
-    background-image: url(background.jpg);
+    background-image: url("picfolder/Board_Final_Resize.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: relative;
@@ -43,7 +43,7 @@ break {
 /* game cards */
 
 #board>div {
-    background-image: url("cardBack.png");
+    background-image: url("picfolder/background.jpg");
     background-size: contain;
     width: 120px;
     margin: 10px;
