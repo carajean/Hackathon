@@ -1,1 +1,79 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Welcome to Wonderland
+        </title>
+        <link href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet">
+        <link rel = "stylesheet" type = "text/css" href = "welcomeWonderland.css"/>
+
+        <style>
+        @import url(https://fonts.googleapis.com/css?family=Alice);
+
+html {
+    background-image: url("picfolder/enterBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    width: 40%;
+    margin: 80px auto 0 auto;
+    text-align: left;
+    padding-top: 40px;
+    padding-right: 400px;
+    color:white;
+    font-family: "Alice", Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 80px;
+}
+
+p{
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-family: "Alice";
+
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    font-family: "Alice";
+    border: darkblue;
+    align-self: auto;
+    border-radius: 20%;
+    color: white;
+    transform: translate(-50%,-50%);
+    background-color: rgb(128, 128,128,.8);
+    animation-name: Enter;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes Enter {
+    from {background-color: rgba(31, 11, 11, 0.7);} 
+    to {background-color:darkgray;}
+}
+
+</style>
+    </head>
+    <body>
+        <div class = "welcomeBorder" >
+            <h1>
+                  Welcome to Wonderland 
+             </h1>
+        </div>
+        <p>
+            <button type = "submit"> Enter </button>
+        </p>
+       
+    </body>
+    
+
+</html>
+
+
