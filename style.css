@@ -4,7 +4,6 @@ body {
     padding:0;
     border:0;
     width:100%;
-    /* background image, turn into transparent */
     background-color: rgb(0,0,0,.8);
     background-image: url(background.jpg);
     background-repeat: no-repeat;
