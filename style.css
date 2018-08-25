@@ -1,10 +1,21 @@
 /* whole thing */
+@import url(https://fonts.googleapis.com/css?family=Alice);
+
+#bg {
+    width:100%;
+}
+
+#title {
+    text-align: center;
+    color: black;
+    font-family: "alice";
+    font-size: 75px;
+}
 body {
     margin:0;
     padding:0;
     border:0;
     width:100%;
-    /* background image, turn into transparent */
     background-color: rgb(0,0,0,.8);
     background-image: url(background.jpg);
     background-repeat: no-repeat;
@@ -20,29 +31,32 @@ break {flex-basis: 100%;
 }
 /* game board */
 #board {
-    width:63%;
+    width:60%;
     height: 20%;
-    margin:100px;
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-right: 11%;
     border: 100px;
     background-color: rgb(255,0,0,.0);
     display: flex;
     flex-wrap: wrap;
 }
-/* game cards */
-#board > div {
-    background-image: url("cardBack.png");
-    background-size: contain;
-    width:100px;
+.card {
+    width:120px;
     margin: 10px;
     border: 10px;
-    height:100px;
+    height:120px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 5 px;
-}
 
-@import url(https://fonts.googleapis.com/css?family=Alice);
+}
+img {
+    width: 120px;
+    height: 120px;
+}
 
 #WelcomeScreen {
     width: 40%;
