@@ -1,6 +1,10 @@
 /* whole thing */
 @import url(https://fonts.googleapis.com/css?family=Alice);
 
+#bg {
+    width:100%;
+}
+
 #title {
     text-align: center;
     color: black;
