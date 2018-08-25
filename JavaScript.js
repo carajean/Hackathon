@@ -65,9 +65,21 @@ board.appendChild(pic12);
 //cards array
 let pics = [pic1,pic1,pic2,pic2,pic3,pic3,pic4,pic4,pic5,pic5,pic6,pic6];
 
+//Welcome variable
+let welcome = document.getElementById('WelcomeScreen');
+
+//hide Welcome function
+function hideWelcome(){
+    welcome.style.visibility = hidden;
+}
+
 //buttons
 let start = document.getElementById("buttonStart");
+
 start.addEventListener('click',startGame);
+
+start.addEventListener('click',hideWelcome);
+
 let newGame = document.getElementById("buttonNew");
 newGame.addEventListener('click',addFunction);
 
