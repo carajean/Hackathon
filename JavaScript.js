@@ -63,7 +63,7 @@ pic1.id = "cardStyle12";
 board.appendChild(pic12);
 
 //cards array
-let cards = [pic1,pic1,pic2,pic2,pic3,pic3,pic4,pic4,pic5,pic5,pic6,pic6];
+let pics = [pic1,pic1,pic2,pic2,pic3,pic3,pic4,pic4,pic5,pic5,pic6,pic6];
 
 //buttons
 let start = document.getElementById("buttonStart");
@@ -72,32 +72,32 @@ let newGame = document.getElementById("buttonNew");
 newGame.addEventListener('click',addFunction);
 
 //cards to click
-let card1 = cards[0];
-card1.addEventListener('click',addCardFunction);
-let card2 = cards[1]
-card2.addEventListener('click',addCardFunction);
-let card3 = cards[2]
-card3.addEventListener('click',addCardFunction);
-let card4 = cards[3]
-card4.addEventListener('click',addCardFunction);
-let card5 = cards[4]
-card5.addEventListener('click',addCardFunction);
-let card6 = cards[5]
-card6.addEventListener('click',addCardFunction);
-let card7 = cards[6]
-card7.addEventListener('click',addCardFunction);
-let card8 = cards[7]
-card8.addEventListener('click',addCardFunction);
-let card9 = cards[8]
-card9.addEventListener('click',addCardFunction);
-let card10 = cards[9]
-card10.addEventListener('click',addCardFunction);
-let card11 = cards[10]
-card11.addEventListener('click',addCardFunction);
-let card12 = cards[11]
-card12.addEventListener('click',addCardFunction);
+let card1 = document.getElementById("cardStyle1");
+card1.addEventListener('click',turnCard);
+let card2 = document.getElementById("cardStyle2");
+card2.addEventListener('click',turnCard);
+let card3 = document.getElementById("cardStyle3");
+card3.addEventListener('click',turnCard);
+let card4 = document.getElementById("cardStyle4");
+card4.addEventListener('click',turnCard);
+let card5 = document.getElementById("cardStyle5");
+card5.addEventListener('click',turnCard);
+let card6 = document.getElementById("cardStyle6");
+card6.addEventListener('click',turnCard);
+let card7 = document.getElementById("cardStyle7");
+card7.addEventListener('click',turnCard);
+let card8 = document.getElementById("cardStyle8");
+card8.addEventListener('click',turnCard);
+let card9 = document.getElementById("cardStyle9");
+card9.addEventListener('click',turnCard);
+let card10 = document.getElementById("cardStyle10");
+card10.addEventListener('click',turnCard);
+let card11 = document.getElementById("cardStyle11");
+card11.addEventListener('click',turnCard);
+let card12 = document.getElementById("cardStyle12");
+card12.addEventListener('click',turnCard);
 
-function shuffle(cards) {
+function shuffle() {
     let x = null;
     //if eventListener startButton...
     for(let i = 0; i < cards.length; i++){
@@ -107,6 +107,70 @@ function shuffle(cards) {
         // return board.innerHTML = output;
     }
     console.log(x);
+}
+
+function turnCard(){
+    //if the card is clicked, the card needs to be turned over and reveal the resulting array.
+    if(card1.src === "background"){
+        card1.src = pics[0];
+    } else {
+        card1.src = "background"
+    }
+    if(card2.src === "background"){
+        card2.src = pics[1];
+    } else {
+        card2.src = "background"
+    }
+    if(card3.src === "background"){
+        card3.src = pics[2];
+    } else {
+        card3.src = "background"
+    }
+    if(card4.src === "background"){
+        card4.src = pics[3];
+    } else {
+        card4.src = "background"
+    }
+    if(card5.src === "background"){
+        card5.src = pics[4];
+    } else {
+        card5.src = "background"
+    }
+    if(card6.src === "background"){
+        card6.src = pics[5];
+    } else {
+        card6.src = "background"
+    }
+    if(card7.src === "background"){
+        card7.src = pics[6];
+    } else {
+        card7.src = "background"
+    }
+    if(card8.src === "background"){
+        card8.src = pics[7];
+    } else {
+        card8.src = "background"
+    }
+    if(card9.src === "background"){
+        card9.src =pics[8];
+    } else {
+        card9.src = "background"
+    }
+    if(card10.src === "background"){
+        card10.src = pics[9];
+    } else {
+        card10.src = "background"
+    }
+    if(card11.src === "background"){
+        card11.src = pics[10];
+    } else {
+        card11.src = "background"
+    }
+    if(card12.src === "background"){
+        card12.src = pics[11];
+    } else {
+        card12.src = "background"
+    }
 }
 
 console.log(shuffle(cards));
