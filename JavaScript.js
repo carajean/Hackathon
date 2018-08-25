@@ -67,7 +67,7 @@ let pics = [pic1,pic1,pic2,pic2,pic3,pic3,pic4,pic4,pic5,pic5,pic6,pic6];
 
 //buttons
 let start = document.getElementById("buttonStart");
-start.addEventListener('click',addFunction);
+start.addEventListener('click',startGame);
 let newGame = document.getElementById("buttonNew");
 newGame.addEventListener('click',addFunction);
 
@@ -97,6 +97,12 @@ card11.addEventListener('click',turnCard);
 let card12 = document.getElementById("cardStyle12");
 card12.addEventListener('click',turnCard);
 
+let welcome = document.getElementById("WelcomeScreen")
+
+function startGame(){
+    if welcome.style
+}
+
 function shuffle() {
     let x = null;
     //if eventListener startButton...
@@ -111,65 +117,65 @@ function shuffle() {
 
 function turnCard(){
     //if the card is clicked, the card needs to be turned over and reveal the resulting array.
-    if(card1.src === "background"){
+    if(card1.src === "background.jpg"){
         card1.src = pics[0];
     } else {
-        card1.src = "background"
+        card1.src = "background.jpg";
     }
-    if(card2.src === "background"){
+    if(card2.src === "background.jpg"){
         card2.src = pics[1];
     } else {
-        card2.src = "background"
+        card2.src = "background.jpg";
     }
-    if(card3.src === "background"){
+    if(card3.src === "background.jpg"){
         card3.src = pics[2];
     } else {
-        card3.src = "background"
+        card3.src = "background.jpg";
     }
-    if(card4.src === "background"){
+    if(card4.src === "background.jpg"){
         card4.src = pics[3];
     } else {
-        card4.src = "background"
+        card4.src = "background.jpg";
     }
-    if(card5.src === "background"){
+    if(card5.src === "background.jpg"){
         card5.src = pics[4];
     } else {
-        card5.src = "background"
+        card5.src = "background.jpg";
     }
-    if(card6.src === "background"){
+    if(card6.src === "background.jpg"){
         card6.src = pics[5];
     } else {
-        card6.src = "background"
+        card6.src = "background.jpg";
     }
-    if(card7.src === "background"){
+    if(card7.src === "background.jpg"){
         card7.src = pics[6];
     } else {
-        card7.src = "background"
+        card7.src = "background.jpg";
     }
-    if(card8.src === "background"){
+    if(card8.src === "background.jpg"){
         card8.src = pics[7];
     } else {
-        card8.src = "background"
+        card8.src = "background.jpg";
     }
-    if(card9.src === "background"){
+    if(card9.src === "background.jpg"){
         card9.src =pics[8];
     } else {
-        card9.src = "background"
+        card9.src = "background.jpg";
     }
-    if(card10.src === "background"){
+    if(card10.src === "background.jpg"){
         card10.src = pics[9];
     } else {
-        card10.src = "background"
+        card10.src = "background.jpg";
     }
-    if(card11.src === "background"){
+    if(card11.src === "background.jpg"){
         card11.src = pics[10];
     } else {
-        card11.src = "background"
+        card11.src = "background.jpg";
     }
-    if(card12.src === "background"){
+    if(card12.src === "background.jpg"){
         card12.src = pics[11];
     } else {
-        card12.src = "background"
+        card12.src = "background.jpg";
     }
 }
 
