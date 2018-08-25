@@ -25,35 +25,6 @@ var src = document.getElementById("x");
 let cards = [pic1,pic1,pic2,pic2,pic3,pic3,pic4,pic4,pic5,pic5,pic6,pic6];
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function shuffle(cards) {
     let x = null;
     //if eventListener startButton...
