@@ -69,6 +69,14 @@ break {
     background-size: cover;
 }
 
+#cardStyle3 {
+    background-image: url("picfolder/pic5.jpg");
+}
+
+#cardStyle9 {
+    background-image: url("picfolder/pic6.jpg");
+}
+
 #WelcomeContent {
     width: 60%;
     position: fixed;
