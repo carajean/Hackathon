@@ -18,13 +18,7 @@ body {
 }
 @import url(https://fonts.googleapis.com/css?family=Alice);
 
-html {
-    background-image: url("AliceInWonderlandQofH.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-body {
+#WelcomeScreen {
     width: 40%;
     margin: 0 auto 0 auto;
     text-align: left;
@@ -32,6 +26,9 @@ body {
     padding-right:30%;
     color: white;
     font-family: "Alice", Arial, Helvetica, sans-serif;
+    background-image: url("AliceInWonderlandQofH.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #WelcomeContent {
