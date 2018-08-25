@@ -35,3 +35,5 @@ function shuffle(cards) {
         return board.innerHTML = output;
     }
 }
+
+console.log(shuffle(cards));
