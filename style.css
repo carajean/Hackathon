@@ -1,10 +1,17 @@
 /* whole thing */
+@import url(https://fonts.googleapis.com/css?family=Alice);
+
+#title {
+    text-align: center;
+    color: black;
+    font-family: "alice";
+    font-size: 75px;
+}
 body {
     margin:0;
     padding:0;
     border:0;
     width:100%;
-    /* background image, turn into transparent */
     background-color: rgb(0,0,0,.8);
     background-image: url(background.jpg);
     background-repeat: no-repeat;
@@ -22,10 +29,10 @@ break {flex-basis: 100%;
 #board {
     width:60%;
     height: 20%;
+    display: block;
     margin: auto;
     margin-left: auto;
-    margin-right: 13%;
-    padding-top: 135px;
+    margin-right: 11%;
     border: 100px;
     background-color: rgb(255,0,0,.0);
     display: flex;
@@ -33,6 +40,8 @@ break {flex-basis: 100%;
 }
 /* game cards */
 #board > div {
+    background-image: url("cardBack.png");
+    background-size: contain;
     width:120px;
     margin: 10px;
     border: 10px;
@@ -42,9 +51,6 @@ break {flex-basis: 100%;
     flex-wrap: wrap;
     padding: 5 px;
 }
-
-
-@import url(https://fonts.googleapis.com/css?family=Alice);
 
 #WelcomeScreen {
     width: 40%;
