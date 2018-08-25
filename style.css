@@ -1,1 +1,18 @@
+body {
+    margin:0;
+    padding:0;
+    border:0;
+    width:100%;
+}
 
+#board {
+    width:70%;
+    margin:auto;
+    background-color:red;
+}
+
+#board > div {
+    width:100px;
+    height:100px;
+    background-color:white;
+}
